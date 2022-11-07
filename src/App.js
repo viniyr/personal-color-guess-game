@@ -35,7 +35,7 @@ function App() {
 
       <ButtonContainer>
           {answers.map((answer) => { 
-            return <Button onClick={()=> { handleAnswerClicked(answer)}} buttonLabel={answer}></Button>
+            return <Button key={answer} onClick={()=> { handleAnswerClicked(answer)}} buttonLabel={answer}></Button>
           })}
       </ButtonContainer>
 
