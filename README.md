@@ -2,10 +2,17 @@
 
 This is a simple color guessing game where you need to guess and click in the corresponding HEX colors presented in the three buttons. 
 
- How to run: 
+ How to run (without docker): 
   - Clone the project in your machine.
   - Paste and enter the command:  <code>npm install</code>
   - Run <code>npm start</code> in your terminal.
+  - You can enter the game in <i>localhost:3000</i>. 
+  
+ With Docker:
+  - Clone the project in your machine.
+  - Run <code>docker build -t color-guess .</code>
+  - Now execute: <code> docker run -d -p 3000:3000 color-guess </code>
+  - You can enter the game in <i>localhost:3000</i>. 
   
   
 # Game photos: 
